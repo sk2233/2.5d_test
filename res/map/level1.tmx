@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="62" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="24">
+ <imagelayer id="2" name="bg">
+  <image source="../image/bg.png" width="992" height="352"/>
+ </imagelayer>
+ <objectgroup id="3" name="collision" visible="0" locked="1">
+  <object id="5" class="land" x="0" y="160" width="80" height="192">
+   <properties>
+    <property name="height" type="float" value="92"/>
+   </properties>
+  </object>
+  <object id="6" class="land" x="80" y="160" width="64" height="192">
+   <properties>
+    <property name="height" type="float" value="44"/>
+   </properties>
+  </object>
+  <object id="7" class="slope" x="336" y="160" width="192" height="48">
+   <properties>
+    <property name="left" type="float" value="0"/>
+    <property name="right" type="float" value="96"/>
+   </properties>
+  </object>
+  <object id="8" class="land" x="528" y="160" width="160" height="48">
+   <properties>
+    <property name="height" type="float" value="96"/>
+   </properties>
+  </object>
+  <object id="9" class="land" x="848" y="160" width="64" height="192">
+   <properties>
+    <property name="height" type="float" value="44"/>
+   </properties>
+  </object>
+  <object id="10" class="land" x="912" y="160" width="80" height="192">
+   <properties>
+    <property name="height" type="float" value="92"/>
+   </properties>
+  </object>
+  <object id="12" class="land" x="-16" y="160" width="16" height="192" visible="0">
+   <properties>
+    <property name="height" type="float" value="192"/>
+   </properties>
+  </object>
+  <object id="14" class="land" x="0" y="144" width="992" height="16">
+   <properties>
+    <property name="height" type="float" value="192"/>
+   </properties>
+  </object>
+  <object id="15" class="land" x="992" y="160" width="16" height="192" visible="0">
+   <properties>
+    <property name="height" type="float" value="192"/>
+   </properties>
+  </object>
+  <object id="16" class="land" x="0" y="352" width="992" height="16" visible="0">
+   <properties>
+    <property name="height" type="float" value="192"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="player">
+  <object id="22" name="player2" class="player" x="592" y="272">
+   <properties>
+    <property name="control" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="23" name="player1" class="player" x="400" y="272">
+   <properties>
+    <property name="control" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>
